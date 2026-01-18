@@ -1,0 +1,61 @@
+:root {
+  --primary: #f4c8c8;
+  --bg: #fcdbdb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fcefef;
+  color: #fff;
+}
+
+/* Main Content */
+#home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../assets/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.home .content {
+  padding: 1.2rem 15%;
+  max-width: 100rem;
+}
+
+.home .content h1 {
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: #461d1d;
+  line-height: 1;
+}
+
+.home .content p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  line-height: 1.4;
+  font-weight: 300;
+  color: #452c2c;
+  line-height: 2;
+}
+
+.home .content .cta {
+  margin-top: 1.9rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  color: #fcf5f5;
+  background-color: #854747;
+}
