@@ -3867,8 +3867,8 @@ hr {
   }
 
   .cake {
-    margin-left: 0rem;
-    align-items: center;
+    display: flex;
+    justify-content: center;
     transform: scale(0.7);
   }
 }
