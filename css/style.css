@@ -3732,7 +3732,7 @@ hr {
 }
 
 /*Tablet*/
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   html {
     font-size: 62.5%;
   }
@@ -3864,7 +3864,7 @@ hr {
 }
 
 /*Mobile*/
-@media (max-width: 450px) {
+@media (min-width: 450px) {
   html {
     font-size: 55%;
   }
